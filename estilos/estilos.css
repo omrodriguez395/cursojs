@@ -1,0 +1,112 @@
+
+/* ESTOS SON ESTILOS COMUNES A TODAS LAS PAGINAS */
+
+body {                                                          /*Aqui se define el cuerpo, el tipo de letra, el color, donde se alinea el texto, la separación, además activo la opción flex para poder dejar el footer en la parte inferior*/ 
+  font-family: Arial, sans-serif;
+  color: black;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;          
+  flex-direction: column;  
+}
+html {
+  height: 100%;
+}
+main {
+  flex: 1;              
+}
+header {
+  background-color: blue;                                 /* El color de fondo de la cabecera*/
+}
+
+footer {
+  background-color: blue;                               /*Define el pie de página, con letra blanca queria ponerlo a la derecha ya que el link para visitarnos va a la derecha*/
+  color: white;
+  text-align:right;
+}
+footer p.visitanos {                                      /*Este es el link en el pie de página*/
+  text-align:left;
+}
+ul, ol {
+  list-style: none;                                       /*Para definir las listas ordenadas y desordenadas*/
+  padding: 0;          
+  margin: 0;           
+  text-align: center;  
+}
+nav a {                                                       
+  color: yellow;
+  text-decoration: none;
+  margin: 0 20px;                                       /*Para definir el navegador */
+  font-weight: bold;
+}
+nav a:hover {
+  color: orange;
+}
+table {
+  margin: 20px auto;
+  border-collapse: collapse;                          
+  border: 2px solid black;
+  background-color: mediumaquamarine;                         /*Para definir las tablas, y dentro de estas las cabeceras y lineas*/        
+}
+th, td {
+  padding: 10px;
+  border: 1px solid white;
+}
+button {
+  background-color: yellow;
+  border: none;
+  padding: 10px 20px;                                         /*Para definir el boton de envio de la encuesta*/
+  font-weight: bold;
+}
+button:hover {
+  background-color: orange;
+}
+/*ESTOS SON ESTILOS QUE SE ASIGNAN A UNA PARTE ESPECIFICA DE LA PAGINA*/
+body.inicio {                                                       
+  background-image: url(../imagenes/portada.jpg);                         /*Para poner una imagen de fondo en el cuerpo de esta página, se hace con todas las páginas ya que son imagenes diferentes para cada una, indico que cubra toda la pantalla y no se repita*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+body.destino { 
+  background-image: url("../imagenes/destino.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body.hoteles {
+  background-image: url("../imagenes/hoteles.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body.actividades {
+  background-image: url(../imagenes/actividades.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body.contacto {
+  background-image: url("../imagenes/contacto.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+body.inicio h1 { color: lightblue; 
+}
+body.destino h1 { color: lightgreen; 
+}
+body.hoteles h1 { color: pink; }
+body.actividades h1 { color: orange;                        /*Para definir el color de los títulos de cada página */
+}
+body.contacto h1 { color: gold; 
+}
+body.inicio h2 {color:green;                                /*Para definir el color de los titulos 2 y 3 de la pagina inicio */
+}
+body.inicio h3 { color:blueviolet;
+}
