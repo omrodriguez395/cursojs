@@ -1,12 +1,21 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 	<channel>
+  <title>Viajes Canarias</title>
+  <link>https://omrodriguez395.github.io/cursojs/index.html</link>
+  <description>La mejor feria de viajes de Canarias</description>
+  <language>es</language>
 		<item>
 			<title>Destinos</title>
       <link>https://omrodriguez395.github.io/cursojs/destino.html</link>
       <description>Descubre los destinos mas sorprendentes de Canarias</description>
       <pubDate>Mon, 03 Nov 2025 20:00:00 +0100</pubDate>
-      <language>es</language>
 		</item>
+    <item>
+      <title>Actividades</title>
+      <link>https://omrodriguez395.github.io/cursojs/actividades.html</link>
+      <description>Descubre un mundo de aventuras en la naturaleza</description>
+      <pubDate>Mon, 03 Nov 2025 20:30:00 +0100</pubDate>
+      </item>
 	</channel>
 </rss>
