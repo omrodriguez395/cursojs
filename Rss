@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<item>
+			<title>Destinos</title>
+      <link>https://omrodriguez395.github.io/cursojs/destino.html</link>
+      <description>Descubre los destinos mas sorprendentes de Canarias</description>
+      <pubDate>Mon, 03 Nov 2025 20:00:00 +0100</pubDate>
+      <language>es</language>
+		</item>
+	</channel>
+</rss>
